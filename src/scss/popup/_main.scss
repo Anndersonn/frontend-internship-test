@@ -1,3 +1,8 @@
+// TEXT
+.show-text{ 
+    display: none;
+    @extend .btn-main
+}
 // POPUP
 .popup { 
     background-color: $white;
@@ -83,11 +88,11 @@
 
 .line2 { 
     transform: rotate(-45deg);
-    left: 24%;
+    left: 20%;
     top: 40%;
 }
 
-// CLOSE-OPEN
+// JS STYLES
 
 .show { 
     display: flex;
